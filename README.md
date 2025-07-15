@@ -1,176 +1,162 @@
-#School Management System - Comprehensive Documentation
-Overview
-The School Management System is a comprehensive web application designed to streamline administrative tasks in educational institutions. This full-stack solution features a Flask backend with RESTful APIs and a modern frontend interface, providing seamless management of users, courses, attendance, grades, and timetables.
+# 🎓 School Management System – Comprehensive Documentation
 
-Key Features
-User Management: Create/update/delete students, teachers, and admins
+## 📌 Overview  
+The **School Management System** is a full-stack web application built to streamline administrative operations in educational institutions. Featuring a **Flask** backend with **RESTful APIs** and a **modern frontend**, it provides seamless management of users, courses, attendance, grades, and timetables.
 
-Course Management: Manage courses, sections, instructors, and enrollments
+---
 
-Attendance Tracking: Record and manage student attendance
+## ✨ Key Features
 
-Grade Management: Track and update student grades
+- **👤 User Management:** Create, update, and delete student, teacher, and admin profiles  
+- **📚 Course Management:** Manage courses, sections, instructors, and enrollments  
+- **🗓️ Attendance Tracking:** Record and update daily student attendance  
+- **📊 Grade Management:** Track and update student grades  
+- **📆 Timetable Scheduling:** Create and manage weekly class schedules  
+- **💾 Data Persistence:** All data stored in **CSV files** for easy access and portability  
+- **🖥️ Responsive UI:** Clean, intuitive, and user-friendly frontend  
 
-Timetable Scheduling: Create and manage class schedules
+---
 
-Data Persistence: CSV-based storage for all system data
+## 🏗️ System Architecture
+Frontend (HTML/CSS/JavaScript)
+↓
+Flask Backend (Python REST API)
+↓
+CSV File-Based Storage
 
-Responsive UI: Clean, modern interface with intuitive navigation
 
-System Architecture
-text
-Frontend (HTML/CSS/JS) 
-       ↓
-Backend API (Flask/Python)
-       ↓
-Data Storage (CSV Files)
-Installation Guide
-Prerequisites
-Python 3.8+
+---
 
-Flask
+## ⚙️ Installation Guide
 
-Flask-CORS
+### ✅ Prerequisites
+- Python 3.8 or above  
+- `Flask`  
+- `Flask-CORS`
 
-Setup Instructions
-Clone the repository:
+### 🧰 Setup Instructions
 
-bash
-git clone https://github.com/your-repo/school-management-system.git
-cd school-management-system
-Install dependencies:
-
-bash
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-repo/school-management-system.git
+   cd school-management-system
+**Install Required Libraries**
 pip install flask flask-cors
-Create required data directories:
-
-bash
+**Create Required Data Files**
 mkdir data
 touch data/users.csv data/courses.csv data/attendence.csv data/grades.csv data/timetable.csv
-Start the backend server:
-
-bash
+**Start the Backend Server**
 python backendAPI.py
-Open main.html in your browser to access the frontend interface
+**Access the Frontend**
+Open main.html in any web browser
 
-File Structure
-text
-├── backendAPI.py             # Main Flask application
-├── main.html                 # Frontend interface
-├── data/                     # Data storage directory
+**📁 File Structure**
+school-management-system/
+├── backendAPI.py                   # Main Flask application
+├── main.html                       # Frontend interface
+├── data/                           # CSV-based data storage
 │   ├── users.csv
 │   ├── courses.csv
 │   ├── attendence.csv
 │   ├── grades.csv
 │   └── timetable.csv
-├── modules/                  # Core system modules
+├── modules/                        # Core backend modules
 │   ├── User_Management_System.py
 │   ├── Course_Management_System.py
 │   ├── Attendence_Management_System.py
 │   ├── Grade_Management_System.py
 │   ├── TimeTable_Management_System.py
 │   └── Loading_data_pandas.py
-API Endpoints
-User Management
-GET /api/users - List all users
 
-POST /api/users - Create new user
+**🌐 API Endpoints**
 
-PUT /api/users/<user_id> - Update user
+**👥 User Management**
+Method	Endpoint	Description
+GET	/api/users	List all users
+POST	/api/users	Create new user
+PUT	/api/users/<user_id>	Update user
+DELETE	/api/users/<user_id>	Delete user
 
-DELETE /api/users/<user_id> - Delete user
+**📘 Course Management**
+Method	Endpoint	Description
+GET	/api/courses	List all courses
+POST	/api/courses	Create new course
+PUT	/api/courses/<code>	Update course
+DELETE	/api/courses/<code>	Delete course
 
-Course Management
-GET /api/courses - List all courses
+**📝 Attendance Management**
+Method	Endpoint	Description
+GET	/api/attendance	List attendance records
+POST	/api/attendance	Create attendance record
+PUT	/api/attendance	Update attendance record
+DELETE	/api/attendance	Delete attendance record
 
-POST /api/courses - Create new course
+**📈 Grade Management**
+Method	Endpoint	Description
+GET	/api/grades	List all grades
+POST	/api/grades	Create/Update grade
+DELETE	/api/grades	Delete grade
 
-PUT /api/courses/<course_code> - Update course
+**🕒 Timetable Management**
+Method	Endpoint	Description
+GET	/api/timetable	List all timetable entries
+POST	/api/timetable	Create timetable entry
+PUT	/api/timetable/<class_id>	Update timetable entry
+DELETE	/api/timetable/<class_id>	Delete timetable entry
 
-DELETE /api/courses/<course_code> - Delete course
+**🧭 Usage Guide**
 
-Attendance Management
-GET /api/attendance - List attendance records
-
-POST /api/attendance - Create attendance record
-
-PUT /api/attendance - Update attendance record
-
-DELETE /api/attendance - Delete attendance record
-
-Grade Management
-GET /api/grades - List all grades
-
-POST /api/grades - Create/update grade
-
-DELETE /api/grades - Delete grade
-
-Timetable Management
-GET /api/timetable - List timetable entries
-
-POST /api/timetable - Create timetable entry
-
-PUT /api/timetable/<class_id> - Update timetable entry
-
-DELETE /api/timetable/<class_id> - Delete timetable entry
-
-Usage Guide
-User Management
+**👤 User Management**
 Navigate to the Users section
 
-Fill the form to add new users (students or teachers)
+Fill the form to add a new user
 
-Use the delete button to remove users
+Use the action buttons to delete or edit users
 
-All changes are saved automatically
+Changes are automatically saved
 
-Course Management
+**📚 Course Management**
 Go to the Courses section
 
-Add new courses with details (name, code, section, instructor)
+Add new courses with name, code, section, and instructor
 
-Manage existing courses using the action buttons
+Modify or delete existing courses
 
-Courses automatically track enrolled students
+Tracks enrolled students automatically
 
-Attendance Tracking
+**🗓️ Attendance Tracking**
 Access the Attendance section
 
-Mark attendance with student ID, date, course, and status
+Mark attendance with Student ID, Course, Date, and Status
 
-View and manage existing attendance records
+View, update, or delete existing attendance records
 
-Update status or delete incorrect records
-
-Grade Management
+**📊 Grade Management**
 Navigate to the Grades section
 
-Add or update grades using student ID and course code
+Add or edit grades using Student ID and Course Code
 
-View all student grades in a tabular format
+View all grades in a tabular layout
 
-Delete grades when needed
+Delete incorrect entries if necessary
 
-Timetable Management
+**🕒 Timetable Management**
 Go to the Timetable section
 
-Add new schedule entries with class, teacher, subject, day and time
+Add new entries with Class, Teacher, Subject, Day, Time
 
-View the complete timetable
+View, update, or remove schedule entries
 
-Update or delete existing entries
-
-Data Model
-User
-python
+**🧬 Data Models**
+**👤 User**
 class User:
     name: str
     user_id: str
     email: str
     password: str
-    role: str  # Student/Teacher/Admin
-Course
-python
+    role: str  # "Student" | "Teacher" | "Admin"
+
+**📚 Course**
 class Course:
     courseName: str
     courseCode: str
@@ -178,21 +164,21 @@ class Course:
     enrolledStudent: list
     courseSection: str
     courseDays: list
-Attendance
-python
+    
+**🗓️ AttendanceSystem**
 class AttendanceSystem:
     student_id: str
-    date: str  # YYYY-MM-DD
-    status: str  # Present/Absent
+    date: str  # Format: YYYY-MM-DD
+    status: str  # "Present" | "Absent"
     course_name: str
-Grade
-python
+    
+**📈 Grade**
 class Grade:
     student: str  # Student ID
     course: str   # Course code
-    grade: str    # Letter grade
-Timetable
-python
+    grade: str    # e.g., "A", "B+", "C"
+    
+**🕒 TimeTable**
 class TimeTable:
     class_id: str
     class_name: str
@@ -202,3 +188,7 @@ class TimeTable:
     subject_name: str
     day_of_week: str
     time_slot: str
+    
+**📞 Contact**
+📧 Email: ha348693@gmail.com
+🌐 GitHub: your-repo
