@@ -1,0 +1,9 @@
+CourseName,CourseCode,CourseInstructor,EnrolledStudents,CourseSection,CourseDays
+Introduction to Computer Science,CS101,Dr. Sarah Johnson,15,A,MWF
+Database Management Systems,CS301,Dr. Emily Rodriguez,10,B,MWF
+Software Engineering,CS401,Prof. David Kim,8,A,TTh
+Web Development,CS250,Dr. Sarah Johnson,14,B,MW
+Machine Learning Fundamentals,CS450,Prof. Michael Chen,9,A,TTh
+Computer Networks,CS350,Dr. Emily Rodriguez,11,A,MWF
+Operating Systems,CS320,Prof. David Kim,13,B,TTh
+Mobile App Development,CS380,Dr. Sarah Johnson,10,A,MW

@@ -1,0 +1,81 @@
+StudentID,Date,Status,CourseName
+stu001,2024-06-01,Present,Introduction to Computer Science
+stu001,2024-06-03,Present,Introduction to Computer Science
+stu001,2024-06-05,Absent,Introduction to Computer Science
+stu001,2024-06-08,Present,Introduction to Computer Science
+stu001,2024-06-04,Present,Data Structures and Algorithms
+stu001,2024-06-06,Present,Data Structures and Algorithms
+stu001,2024-06-11,Present,Data Structures and Algorithms
+stu001,2024-06-13,Late,Data Structures and Algorithms
+stu002,2024-06-01,Present,Introduction to Computer Science
+stu002,2024-06-03,Present,Introduction to Computer Science
+stu002,2024-06-05,Present,Introduction to Computer Science
+stu002,2024-06-08,Absent,Introduction to Computer Science
+stu002,2024-06-01,Present,Database Management Systems
+stu002,2024-06-03,Present,Database Management Systems
+stu002,2024-06-05,Present,Database Management Systems
+stu002,2024-06-08,Present,Database Management Systems
+stu003,2024-06-01,Present,Introduction to Computer Science
+stu003,2024-06-03,Present,Introduction to Computer Science
+stu003,2024-06-05,Present,Introduction to Computer Science
+stu003,2024-06-08,Present,Introduction to Computer Science
+stu003,2024-06-04,Present,Data Structures and Algorithms
+stu003,2024-06-06,Present,Data Structures and Algorithms
+stu003,2024-06-11,Present,Data Structures and Algorithms
+stu003,2024-06-13,Present,Data Structures and Algorithms
+stu004,2024-06-01,Present,Introduction to Computer Science
+stu004,2024-06-03,Absent,Introduction to Computer Science
+stu004,2024-06-05,Present,Introduction to Computer Science
+stu004,2024-06-08,Late,Introduction to Computer Science
+stu004,2024-06-01,Present,Web Development
+stu004,2024-06-03,Present,Web Development
+stu004,2024-06-08,Present,Web Development
+stu004,2024-06-10,Absent,Web Development
+stu005,2024-06-04,Present,Data Structures and Algorithms
+stu005,2024-06-06,Present,Data Structures and Algorithms
+stu005,2024-06-11,Present,Data Structures and Algorithms
+stu005,2024-06-13,Present,Data Structures and Algorithms
+stu005,2024-06-01,Present,Database Management Systems
+stu005,2024-06-03,Present,Database Management Systems
+stu005,2024-06-05,Present,Database Management Systems
+stu005,2024-06-08,Present,Database Management Systems
+stu006,2024-06-01,Present,Introduction to Computer Science
+stu006,2024-06-03,Present,Introduction to Computer Science
+stu006,2024-06-05,Absent,Introduction to Computer Science
+stu006,2024-06-08,Absent,Introduction to Computer Science
+stu006,2024-06-04,Present,Operating Systems
+stu006,2024-06-06,Present,Operating Systems
+stu006,2024-06-11,Late,Operating Systems
+stu006,2024-06-13,Present,Operating Systems
+stu007,2024-06-04,Present,Data Structures and Algorithms
+stu007,2024-06-06,Present,Data Structures and Algorithms
+stu007,2024-06-11,Present,Data Structures and Algorithms
+stu007,2024-06-13,Present,Data Structures and Algorithms
+stu007,2024-06-01,Present,Computer Networks
+stu007,2024-06-03,Present,Computer Networks
+stu007,2024-06-05,Present,Computer Networks
+stu007,2024-06-08,Present,Computer Networks
+stu008,2024-06-01,Present,Introduction to Computer Science
+stu008,2024-06-03,Late,Introduction to Computer Science
+stu008,2024-06-08,Present,Introduction to Computer Science
+stu008,2024-06-01,Present,Web Development
+stu008,2024-06-03,Present,Web Development
+stu008,2024-06-08,Present,Web Development
+stu008,2024-06-10,Present,Web Development
+stu009,2024-06-04,Present,Data Structures and Algorithms
+stu009,2024-06-06,Present,Data Structures and Algorithms
+stu009,2024-06-11,Present,Data Structures and Algorithms
+stu009,2024-06-13,Present,Data Structures and Algorithms
+stu009,2024-06-04,Present,Software Engineering
+stu009,2024-06-06,Present,Software Engineering
+stu009,2024-06-11,Present,Software Engineering
+stu009,2024-06-13,Absent,Software Engineering
+stu010,2024-06-01,Present,Introduction to Computer Science
+stu010,2024-06-03,Present,Introduction to Computer Science
+stu010,2024-06-05,Present,Introduction to Computer Science
+stu010,2024-06-08,Present,Introduction to Computer Science
+stu010,2024-06-04,Present,Operating Systems
+stu010,2024-06-06,Late,Operating Systems
+stu010,2024-06-11,Present,Operating Systems
+stu010,2024-06-13,Present,Operating Systems
+,,,
