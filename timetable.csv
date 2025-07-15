@@ -1,0 +1,21 @@
+ClassID,ClassName,TeacherID,TeacherName,SubjectID,SubjectName,DayOfWeek,TimeSlot
+CLS004,CS201-A,prof002,Prof. Michael Chen,CS201,Data Structures and Algorithms,Tuesday,10:45-12:15
+CLS005,CS201-A,prof002,Prof. Michael Chen,CS201,Data Structures and Algorithms,Thursday,10:45-12:15
+CLS006,CS301-B,prof003,Dr. Emily Rodriguez,CS301,Database Management Systems,Monday,13:00-14:30
+CLS007,CS301-B,prof003,Dr. Emily Rodriguez,CS301,Database Management Systems,Wednesday,13:00-14:30
+CLS008,CS301-B,prof003,Dr. Emily Rodriguez,CS301,Database Management Systems,Friday,13:00-14:30
+CLS009,CS401-A,prof004,Prof. David Kim,CS401,Software Engineering,Tuesday,14:45-16:15
+CLS010,CS401-A,prof004,Prof. David Kim,CS401,Software Engineering,Thursday,14:45-16:15
+CLS012,CS250-B,prof001,Dr. Sarah Johnson,CS250,Web Development,Wednesday,16:30-18:00
+CLS013,CS450-A,prof002,Prof. Michael Chen,CS450,Machine Learning Fundamentals,Tuesday,09:00-10:30
+CLS014,CS450-A,prof002,Prof. Michael Chen,CS450,Machine Learning Fundamentals,Thursday,09:00-10:30
+CLS015,CS350-A,prof003,Dr. Emily Rodriguez,CS350,Computer Networks,Monday,10:45-12:15
+CLS016,CS350-A,prof003,Dr. Emily Rodriguez,CS350,Computer Networks,Wednesday,10:45-12:15
+CLS017,CS350-A,prof003,Dr. Emily Rodriguez,CS350,Computer Networks,Friday,10:45-12:15
+CLS018,CS320-B,prof004,Prof. David Kim,CS320,Operating Systems,Tuesday,13:00-14:30
+CLS019,CS320-B,prof004,Prof. David Kim,CS320,Operating Systems,Thursday,13:00-14:30
+CLS020,CS380-A,prof001,Dr. Sarah Johnson,CS380,Mobile App Development,Monday,14:45-16:15
+CLS021,CS380-A,prof001,Dr. Sarah Johnson,CS380,Mobile App Development,Wednesday,14:45-16:15
+CLS022,CS480-A,prof002,Prof. Michael Chen,CS480,Artificial Intelligence,Tuesday,16:30-18:00
+CLS023,CS480-A,prof002,Prof. Michael Chen,CS480,Artificial Intelligence,Thursday,16:30-18:00
+,,,,,,,

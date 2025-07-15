@@ -1,0 +1,20 @@
+Name,UserID,Email,Password,Role
+Admin User,admin123,ha348693@gmail.com,123456,Admin
+Bob Martinez,stu002,bob.martinez@student.edu,student456,Student
+Catherine Lee,stu003,catherine.lee@student.edu,student789,Student
+Daniel Brown,stu004,daniel.brown@student.edu,student321,Student
+Emma Davis,stu005,emma.davis@student.edu,student654,Student
+Frank Miller,stu006,frank.miller@student.edu,student987,Student
+Grace Taylor,stu007,grace.taylor@student.edu,student147,Student
+Henry Wilson,stu008,henry.wilson@student.edu,student258,Student
+Isabel Garcia,stu009,isabel.garcia@student.edu,student369,Student
+Karen White,stu011,karen.white@student.edu,student852,Student
+Leo Anderson,stu012,leo.anderson@student.edu,student963,Student
+Maria Gonzalez,stu013,maria.gonzalez@student.edu,student159,Student
+Nathan Clark,stu014,nathan.clark@student.edu,student753,Student
+Olivia Harris,stu015,olivia.harris@student.edu,student486,Student
+Peter Lewis,stu016,peter.lewis@student.edu,student372,Student
+Quinn Walker,stu017,quinn.walker@student.edu,student951,Student
+Rachel Young,stu018,rachel.young@student.edu,student684,Student
+Samuel King,stu019,samuel.king@student.edu,student217,Student
+Tiffany Scott,stu020,tiffany.scott@student.edu,student538,Student
