@@ -194,4 +194,4 @@ class TimeTable:
     
 **📞 Contact**
 📧 Email: ha348693@gmail.com
-🌐 GitHub: your-repo
+🌐 GitHub: (https://github.com/ha348693/School-Management-System)
