@@ -50,7 +50,9 @@ python backendAPI.py
 **Access the Frontend**
 Open main.html in any web browser
 
-**📁 File Structure**
+## 📁 File Structure
+
+```text
 school-management-system/
 ├── backendAPI.py                   # Main Flask application
 ├── main.html                       # Frontend interface
@@ -67,6 +69,7 @@ school-management-system/
 │   ├── Grade_Management_System.py
 │   ├── TimeTable_Management_System.py
 │   └── Loading_data_pandas.py
+
 
 **🌐 API Endpoints**
 
